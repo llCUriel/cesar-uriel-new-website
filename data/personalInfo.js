@@ -5,7 +5,7 @@ module.exports = [
   { meta: "Nationality", metaInfo: "Mexican" },
   { meta: "Freelance", metaInfo: "Not available"},
   { meta: "Address", metaInfo: "Mexico City"},
-  { meta: "phone", metaInfo: "+525572825823"},
+  { meta: "phone", metaInfo: ""},
   { meta: "Email", metaInfo: "uriel.hernandez.castellanos@gmail.com" },
   { meta: "Current Employer", metaInfo: "IBM" },
   { meta: "langages", metaInfo: "Spanish, English" },
