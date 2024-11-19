@@ -9,10 +9,10 @@ const Address = () => {
       info: (
         <>
           <li>
-            <a href="Tel: +52 5572825823">+52 5572825823</a>
+            <a href="">+XX XXXXXXXXXX</a>
           </li>
           <li>
-            <a href="Tel: +52 5572825823">+52 5572825823</a>
+            <a href="">+XX XXXXXXXXXX</a>
           </li>
         </>
       ),
