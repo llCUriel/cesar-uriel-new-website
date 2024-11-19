@@ -14,7 +14,7 @@ import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
 
 const EdinaHorizontal = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     document.querySelector("body").classList.remove("rtl");
