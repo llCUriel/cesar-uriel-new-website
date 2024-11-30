@@ -6,7 +6,7 @@ const index = () => {
       <div
         className="hero bg-image"
         style={{
-          backgroundImage: `url(img/1.jpg)`,
+          backgroundImage: `url(img/1.png)`,
         }}
       >
         <div className="content">

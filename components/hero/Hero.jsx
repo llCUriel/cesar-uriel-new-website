@@ -2,8 +2,8 @@ import React from "react";
 import Social from "../Social";
 import ReactTyped from "react-typed";
 import Image from "next/image";
-import shapeImage from "../../public/img/hero/1.jpg";
-import heroImage from "../../public/img/hero/2.jpg";
+import shapeImage from "../../public/img/hero/1.png";
+import heroImage from "../../public/img/hero/2.png";
 
 const heroContent = {
   shapeImage: shapeImage,
