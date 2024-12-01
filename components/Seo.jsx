@@ -14,7 +14,7 @@ const Seo = ({ pageTitle, font }) => (
       />
       <meta
         name="description"
-        content="Edian - Personal Portfolio React NextJS Template"
+        content="Cesar Uriel - Personal Website"
       />
       <meta name="ibthemes" content="ATFN" />
       <meta
