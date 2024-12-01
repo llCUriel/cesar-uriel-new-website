@@ -14,7 +14,7 @@ import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
 
 const EdinaHorizontal = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
     document.querySelector("body").classList.remove("rtl");
@@ -92,10 +92,6 @@ const EdinaHorizontal = () => {
         <div className="container">
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
-            <p>
-              I specialize in backend development, focusing on scalable microservices and cloud solutions,
-              with clean code principles. I also have some exposure to frontend work with React.
-            </p>
           </div>
           {/* End edian_tm_title */}
           <Portfolio />
