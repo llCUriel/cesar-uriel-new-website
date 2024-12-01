@@ -26,7 +26,7 @@ module.exports = [
         Cloud Solutions &<br /> Integration.
       </>
     ),
-    popupImg: "/img/service/2.png",
+    popupImg: "/img/service/2.jpg",
     popupTitle: `
     Cloud Solutions & Integration`,
     firstDescriptionText: (

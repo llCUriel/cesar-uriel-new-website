@@ -20,7 +20,7 @@ module.exports = [
   {
     id: 2,
     tooltipId: "Citi SmartSave",
-    portfolioImage: "/img/portfolio/2.png",
+    portfolioImage: "/img/portfolio/2.jpg",
     portfolioLink: "https://www.banamex.com/es/centro-de-ayuda/cuentas/ahorro-facil/",
     title: "Citi SmartSave",
     meta: "Mobile Feature",
