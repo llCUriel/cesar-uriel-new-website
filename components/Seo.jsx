@@ -14,7 +14,7 @@ const Seo = ({ pageTitle, font }) => (
       />
       <meta
         name="description"
-        content="Cesar Uriel - Personal Website"
+        content="Cesar's Personal Website"
       />
       <meta name="ibthemes" content="ATFN" />
       <meta

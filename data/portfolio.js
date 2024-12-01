@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     tooltipId: "Citi-Apple Wallet Connect",
-    portfolioImage: "/img/portfolio/1.png",
+    portfolioImage: "/img/portfolio/1.jpg",
     portfolioLink: "https://www.banamex.com/apple-pay/",
     title: "Citi-Apple Wallet Connect",
     meta: "Mobile Feature",
