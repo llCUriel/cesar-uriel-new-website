@@ -15,7 +15,7 @@ import HeaderMobile from "../../header/HeaderMobile";
 import Certification from "../../certifications/Certification";
 
 const EdinaHomeSidebar = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     document.querySelector("body").classList.remove("rtl");
