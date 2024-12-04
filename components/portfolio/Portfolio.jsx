@@ -20,7 +20,7 @@ const Portfolio = () => {
     draggable: false,
     responsive: [
       {
-        breakpoint: 575,
+        breakpoint: 895,
         settings: {
           slidesToShow: 1,
           arrow: false,

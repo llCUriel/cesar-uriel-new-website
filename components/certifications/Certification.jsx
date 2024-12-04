@@ -13,7 +13,7 @@ export default function Certification() {
     autoplay: false,
     responsive: [
       {
-        breakpoint: 575,
+        breakpoint: 895,
         settings: {
           arrow: false,
           slidesToShow: 1,

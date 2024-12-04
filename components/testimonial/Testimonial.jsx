@@ -14,7 +14,7 @@ export default function Testimonial() {
     autoplay: false,
     responsive: [
       {
-        breakpoint: 575,
+        breakpoint: 895,
         settings: {
           arrow: false,
           slidesToShow: 1,
