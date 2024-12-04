@@ -30,7 +30,7 @@ module.exports = [
   {
     id: 3,
     img: "/img/news/3.png",
-    title: "How to Ace Data Structures and Algorithms Interview",
+    title: "Stop asking how to invert a binary tree in coding interviews",
     date: "November, 2024",
     meta: "Technology",
     descriptionText1: (
