@@ -10,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_suom3hw", 
+        "template_0gyjsra", 
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "r6eqLHhN-rHTneVRs" 
       )
       .then(
         (result) => {
@@ -30,7 +30,7 @@ const Contact = () => {
           document.getElementById("myForm").reset();
         },
         (error) => {
-          toast.error("Ops Message Not Sent!", {
+          toast.error("Ops! Message Not Sent!", {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
@@ -39,6 +39,7 @@ const Contact = () => {
             draggable: true,
             progress: undefined,
           });
+          console.error(error);
         }
       );
   };
@@ -52,7 +53,7 @@ const Contact = () => {
         onSubmit={sendEmail}
       >
         <div className="first_row">
-          <input type="text" placeholder="Name *" name="name" required />
+          <input type="text" placeholder="Name *" name="from_name" required />
         </div>
         {/* End .first_row */}
 
@@ -76,7 +77,7 @@ const Contact = () => {
             Submit
           </button>
         </div>
-        {/* End tokyo_tm_button */}
+        {/* End edina_tm_button */}
       </form>
       {/* End contact */}
     </>
