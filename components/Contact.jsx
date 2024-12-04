@@ -8,6 +8,10 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const userEmail = form.current.user_email.value;
+
+    // Enviar correo al administrador
     emailjs
       .sendForm(
         "service_suom3hw", 
@@ -17,20 +21,50 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result);
-          toast.success("Message Sent Successfully!", {
-            position: "top-right",
-            autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          document.getElementById("myForm").reset();
+          console.log("Admin email sent:", result);
+
+          // Enviar correo al usuario que llenó el formulario
+          emailjs
+            .send(
+              "service_suom3hw",
+              "template_yb8oml8",
+              {
+                from_name: form.current.from_name.value,
+                user_email: userEmail,
+              },
+              "r6eqLHhN-rHTneVRs"
+            )
+            .then(
+              (userResult) => {
+                console.log("User email sent:", userResult);
+                toast.success("Message Sent Successfully!", {
+                  position: "top-right",
+                  autoClose: 2000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                });
+                document.getElementById("myForm").reset();
+              },
+              (userError) => {
+                console.error("Error sending user email:", userError);
+                toast.error("Ops! Message to user not sent!", {
+                  position: "top-right",
+                  autoClose: 2000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                });
+              }
+            );
         },
         (error) => {
-          toast.error("Ops! Message Not Sent!", {
+          console.error("Error sending admin email:", error);
+          toast.error("Ops! Message to admin not sent!", {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
@@ -39,7 +73,6 @@ const Contact = () => {
             draggable: true,
             progress: undefined,
           });
-          console.error(error);
         }
       );
   };
