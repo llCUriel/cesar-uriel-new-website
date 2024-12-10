@@ -39,8 +39,7 @@ const About = () => {
             <div className="my_skills">
               <h3 className="title">What is my skill level?</h3>
               <p className="desc">
-                I specialize in backend development, focusing on scalable microservices and cloud solutions, 
-                with clean code principles. I also have some exposure to frontend work with React.
+                I specialize in backend development, creating scalable microservices and cloud solutions with clean code principles. I also have hands-on experience with React for frontend work.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">

@@ -76,9 +76,6 @@ const EdinaHomeSidebar = () => {
         <div className="container">
           <div className="edina_tm_title">
             <h3>What I Do</h3>
-            <p>
-              I offer backend and software engineering services, focusing on scalable microservices, cloud solutions, React development, and team training. I also provide conference talks, sharing insights on tech innovation and industry best practices.
-            </p>
           </div>
           {/* End edian_tm_title */}
           <Service />

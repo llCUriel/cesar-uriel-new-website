@@ -76,7 +76,14 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <a href="/pdf/cesar_hernandez_cv_swe.pdf" target="_blank" rel="noopener noreferrer" className="color">View CV</a>
+            <div style={{ display: 'flex', gap: '10px' }}>
+              <div className="edina_tm_button">
+                <a href="/pdf/cesar_hernandez_cv_swe.pdf" target="_blank" rel="noopener noreferrer" className="color">View CV</a>
+              </div>
+              <div className="edina_tm_button">
+                <a href="https://cal.com/cesar-hernandez" target="_blank" rel="noopener noreferrer" className="color">Pick a Time</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
